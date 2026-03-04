@@ -12,7 +12,7 @@ import image from "../images/Scan.jpg";
 
 export default function Hero() {
   return (
-    <section className="hero-section">
+    <section className="hero-section" id="home">
       <HeroBackground />
 
       <div className="hero-container">
@@ -33,7 +33,7 @@ export default function Hero() {
           </div>
           <div className="links">
             <div className="more">
-              <a href="" className="learn-more-btn">
+              <a href="#about" className="learn-more-btn">
                 Learn More
               </a>
             </div>

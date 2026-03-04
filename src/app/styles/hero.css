@@ -39,6 +39,7 @@
 
 .image-container img {
   object-fit: cover;
+  border-radius: 2px;
 }
 
 .fa-2x {

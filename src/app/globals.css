@@ -14,6 +14,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: var(--font-regular);
+  scroll-behavior: smooth;
 }
 
 body {
@@ -22,4 +23,8 @@ body {
 
 a {
   border-radius: 2px;
+}
+
+section {
+  margin-bottom: 5em;
 }
