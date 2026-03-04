@@ -15,7 +15,11 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <a className="connect-link menu" href="">
+          <a
+            className="connect-link menu"
+            href="https://www.linkedin.com/in/aleksandar-dimitrievski-353827248/"
+            target="blank"
+          >
             Let's Connect
           </a>
           <HamburgerMenu />

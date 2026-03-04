@@ -19,3 +19,7 @@
 body {
   background-color: var(--color-bg-light);
 }
+
+a {
+  border-radius: 2px;
+}
