@@ -13,18 +13,22 @@ const Projects = () => {
         </div>
 
         <div className="projects-list">
-          <a href="#" className="project-card">
+          <a
+            href="https://github.com/Sizo04/pc-building"
+            className="project-card"
+            target="blank"
+          >
             <span className="project-num">01</span>
             <div className="project-content">
-              <h3 className="project-name">Project Alpha</h3>
+              <h3 className="project-name">PC Builder</h3>
               <p className="project-desc">
-                A modern web application built with React and Node.js. Focused
-                on performance and clean user experience.
+                A web application that lets users browse and select computer
+                components to build a custom PC.
               </p>
               <div className="project-tags">
                 <span className="tag">React</span>
-                <span className="tag">Node.js</span>
-                <span className="tag">CSS</span>
+                <span className="tag">Typescript</span>
+                <span className="tag">Zustand</span>
               </div>
             </div>
             <span className="arrow">↗</span>

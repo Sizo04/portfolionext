@@ -53,7 +53,6 @@ export default function About() {
           </div>
         </div>
 
-        {/* Right — stats */}
         <div className="about-stats">
           <div className="stat-card">
             <span className="stat-num">6+</span>

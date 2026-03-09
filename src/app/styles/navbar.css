@@ -78,11 +78,24 @@ a:hover {
   display: none;
 }
 
-@media (max-width: 1024px) {
+.resume-btn {
+  background-color: var(--primary-color);
+  padding: 0.7em;
+  margin: 0 1em;
+  border-radius: 10%;
+}
+
+.resume-btn:hover {
+  background-color: var(--color-text);
+}
+
+@media (max-width: 1230px) {
   .nav-container {
     max-width: 90%;
   }
+}
 
+@media (max-width: 1024px) {
   nav h2 {
     font-size: 16px;
   }

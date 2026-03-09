@@ -52,19 +52,7 @@ export default function Hero() {
         </div>
         <div className="image-container">
           <div className="image-container">
-            <Image
-              src={image}
-              alt="Aleksandar"
-              width={400}
-              height={600}
-              style={{
-                width: "100%",
-                height: "100%",
-                objectFit: "cover",
-                objectPosition: "center center",
-                display: "block",
-              }}
-            />
+            <Image className="image" src={image} alt="Aleksandar" />
           </div>
         </div>
       </div>
