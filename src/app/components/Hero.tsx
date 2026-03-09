@@ -22,14 +22,13 @@ export default function Hero() {
             <h1 className="primary-color">Frontend Developer</h1>
           </div>
           <div className="text">
-            Passionate Front-End Developer With experience in HTML, CSS, and
-            JavaScript, I am a highly motivated and skilled front-end developer.
-            I am also experienced in Figma design, SaaS, Git, and GitHub version
-            control. I am also a strong problem solver and have a keen eye for
-            detail. I am eager to learn new technologies and am always looking
-            for ways to improve my skills. I am also a team player and am always
-            willing to help others. I am confident that I have the skills and
-            experience necessary to be a successful front-end developer.
+            I am a Front-End Developer specializing in React and TypeScript,
+            with solid experience in HTML, CSS, and JavaScript. I am skilled in
+            Figma design and Git/GitHub version control.I have strong
+            problem-solving abilities and attention to detail, I am always eager
+            to learn new technologies and improve my skills. A collaborative
+            team player, I enjoy contributing to projects and supporting others,
+            confident in my ability to deliver high-quality front-end solutions.
           </div>
           <div className="links">
             <div className="more">
