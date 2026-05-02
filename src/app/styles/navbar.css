@@ -57,7 +57,7 @@ a:hover {
   width: 100%;
   background-color: var(--color-bg-dark);
   position: absolute;
-  top: 70px;
+  top: 50px;
   left: 0;
   display: flex;
   justify-content: center;
@@ -71,6 +71,10 @@ a:hover {
   align-items: center;
 }
 
+.ham-menu li {
+  margin: 0.5em 0;
+}
+
 .ham-menu-btn {
   background: none;
   border: none;
@@ -78,15 +82,49 @@ a:hover {
   display: none;
 }
 
+.nav-btns {
+  display: flex;
+  align-items: center;
+}
+
 .resume-btn {
   background-color: var(--primary-color);
-  padding: 0.7em;
+  padding: 0.5em 0.6em;
   margin: 0 1em;
   border-radius: 10%;
 }
 
 .resume-btn:hover {
   background-color: var(--color-text);
+}
+
+.download-resume {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-text {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 6px;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+
+  background: black;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+
+  transition: 0.3s ease;
+}
+
+.download-resume:hover .hover-text {
+  opacity: 1;
+  visibility: visible;
 }
 
 @media (max-width: 1230px) {
@@ -100,6 +138,9 @@ a:hover {
     font-size: 16px;
   }
 
+  .download-resume {
+    display: none;
+  }
   .menu {
     display: none;
   }

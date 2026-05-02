@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { navLinks } from "../data";
 
 export default function HamburgerMenu() {
@@ -21,6 +21,11 @@ export default function HamburgerMenu() {
                 <a href={`#${link.toLowerCase()}`}>{link}</a>
               </li>
             ))}
+            <li>
+              <a href="/cv.pdf" download="CV.pdf">
+                Resume
+              </a>
+            </li>
           </ul>
         </div>
       )}
