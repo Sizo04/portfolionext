@@ -110,11 +110,11 @@ a:hover {
   transform: translateX(-50%);
   margin-top: 6px;
   text-align: center;
-  opacity: 0;
+  opacity: 1;
   visibility: hidden;
 
-  background: black;
-  color: white;
+  background-color: var(--color-bg-dark);
+  color: var(--color-text);
   padding: 4px 8px;
   border-radius: 4px;
   font-size: 12px;

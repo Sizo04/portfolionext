@@ -31,7 +31,7 @@ const Navbar = () => {
               <a className="resume-btn" href="/cv.pdf" download="CV.pdf">
                 <FontAwesomeIcon icon={faFileArrowDown} />
               </a>
-              <p className="hover-text">Download</p>
+              <p className="hover-text">Download Resume</p>
             </div>
           </div>
 
