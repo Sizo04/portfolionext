@@ -22,7 +22,7 @@ export default function HamburgerMenu() {
               </li>
             ))}
             <li>
-              <a href="/cv.pdf" download="CV.pdf">
+              <a href="/CV.pdf" download="CV.pdf">
                 Resume
               </a>
             </li>

@@ -28,7 +28,7 @@ const Navbar = () => {
               Let's Connect
             </a>
             <div className="download-resume">
-              <a className="resume-btn" href="/cv.pdf" download="CV.pdf">
+              <a className="resume-btn" href="/CV.pdf" download="CV.pdf">
                 <FontAwesomeIcon icon={faFileArrowDown} />
               </a>
               <p className="hover-text">Download Resume</p>
