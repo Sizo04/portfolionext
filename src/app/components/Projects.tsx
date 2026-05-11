@@ -57,18 +57,19 @@ const Projects = () => {
             <span className="arrow">↗</span>
           </a>
 
-          <a href="#" className="project-card">
+          <a href="https://github.com/Sizo04/openroom" className="project-card">
             <span className="project-num">03</span>
             <div className="project-content">
-              <h3 className="project-name">Portfolio Site</h3>
+              <h3 className="project-name">OpenRoom Chat</h3>
               <p className="project-desc">
-                Personal portfolio built with Next.js and TypeScript. Features
-                custom animations and a responsive layout.
+                Open Room is a real-time chat application built with React and
+                Firebase, featuring live messaging, Google authentication,
+                grouped conversations and responsive UI design.
               </p>
               <div className="project-tags">
-                <span className="tag">Next.js</span>
-                <span className="tag">TypeScript</span>
-                <span className="tag">Figma</span>
+                <span className="tag">React</span>
+                <span className="tag">Firebase Autenthication</span>
+                <span className="tag">Firestore</span>
               </div>
             </div>
             <span className="arrow">↗</span>
