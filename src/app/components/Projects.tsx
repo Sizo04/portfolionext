@@ -76,24 +76,24 @@ const Projects = () => {
           </a>
 
           <a
-            href="https://github.com/Sizo04/group-project-1"
+            href="https://github.com/Sizo04/portfolionext"
             className="project-card"
             target="blank"
           >
             <span className="project-num">04</span>
             <div className="project-content">
-              <h3 className="project-name">Team Collaboration Project</h3>
+              <h3 className="project-name">Personal Portfolio</h3>
               <p className="project-desc">
-                Developed a responsive page as part of a team project. Worked
-                with Git branching, pull requests, and resolved merge conflicts
-                while collaborating through GitHub.
+                A personal portfolio built with Next.js and TypeScript,
+                featuring live GitHub stats pulled server-side via the GitHub
+                GraphQL API
               </p>
               <div className="project-tags">
-                <span className="tag">HTML</span>
+                <span className="tag">NextJS</span>
+                <span className="tag">Typescript</span>
+                <span className="tag">React</span>
                 <span className="tag">CSS</span>
-                <span className="tag">Git</span>
-                <span className="tag">Github</span>
-                <span className="tag">Figma</span>
+                <span className="tag">Github GraphQL API</span>
               </div>
             </div>
             <span className="arrow">↗</span>

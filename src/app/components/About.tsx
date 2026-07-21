@@ -1,5 +1,10 @@
 import React from "react";
+import { getPortfolioStats } from "../helper/commitCount";
 import "../styles/about.css";
+
+export const revalidate = 86400;
+
+const { totalCommits, repoCount } = await getPortfolioStats("Sizo04");
 
 export default function About() {
   const traits = [
@@ -59,12 +64,12 @@ export default function About() {
             <span className="stat-label">Technologies</span>
           </div>
           <div className="stat-card">
-            <span className="stat-num">∞</span>
-            <span className="stat-label">Cups of Coffee</span>
+            <span className="stat-num">{totalCommits.toLocaleString()}</span>
+            <span className="stat-label">Number Of Commits</span>
           </div>
           <div className="stat-card">
-            <span className="stat-num">1</span>
-            <span className="stat-label">Academy Graduated</span>
+            <span className="stat-num">{repoCount}</span>
+            <span className="stat-label">Repositories</span>
           </div>
           <div className="stat-card">
             <span className="stat-num">100%</span>
